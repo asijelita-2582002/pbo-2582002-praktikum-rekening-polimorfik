@@ -11,9 +11,8 @@ public class BankPolimorfik {
         Tabungan citra = new Tabungan("102", "Citra", 300000, 2.0);
         Giro budi = new Giro("201", "Budi", 200000, 500000);
 
-        // Uji abstract class (baris ini sengaja dijadikan komentar)
+        // Rekening tidak bisa dibuat langsung karena merupakan abstract class.
         // Rekening r = new Rekening("999", "Eko", 0);
-        // Error: Rekening is abstract; cannot be instantiated
 
         // 2. Membuat array semua rekening
         Rekening[] semua = { ani, citra, budi };
